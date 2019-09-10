@@ -2,6 +2,7 @@
 Set channels volume level of master audio-stream to a single value (manually or from task scheduler)
 ## Why?
 Sometimes (for God’s only known reasons) position-sound levels of my *Speaker* audio-device is going nuts and in the end it looks something like this:  
+![sound_levels_going_nuts](https://raw.githubusercontent.com/Forsari0/SetChannelsVolume/master/sound_levels_going_nuts.png)  
 So, after many-many times when I'm manually set this levels to the same value, I decided to write simple *powershell script* to mitigate this problem.
 ## Manual usage
 You can simply run `SetChannelsVolume.ps1` from `powershell` session and script set all channels sound levels to the **biggest** value:
