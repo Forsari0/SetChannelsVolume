@@ -44,11 +44,5 @@ First `wscript` argument is path to `Run-From-TaskScheduler.vbs` script (obviosl
 Why we need to run this from `wscript`, not just from ordinary `cmd`?  
 Because of annoying one-second console window blink on the screen.  
 ## Credits
-@sverrirs for his useful gist (almost all `Add-Type` code taken from there):
-```
-https://gist.github.com/sverrirs/d099b34b7f72bb4fb386
-```
-@Roy-Orbison for a simple solution with console window blinks:
-```
-https://github.com/PowerShell/PowerShell/issues/3028#issuecomment-522375489
-```
+[@sverrirs](https://gist.github.com/sverrirs) for his useful [gist](https://gist.github.com/sverrirs/d099b34b7f72bb4fb386) (almost all `Add-Type` code taken from there).  
+[@Roy-Orbison](https://github.com/Roy-Orbison) for a simple [solution](https://github.com/PowerShell/PowerShell/issues/3028#issuecomment-522375489) with console-window-blinks problem.
